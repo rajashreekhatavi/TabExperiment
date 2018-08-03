@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:text="ProjectName : Online Voting System" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:text="Discription : Online Voting System are using voting in online any time and any where ,It reduse the paper works" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="302dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="192dp"
+        android:text="ProjectName : attendece management Systen" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:text="Discription : Attendence management System is taking the attendece of students" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="237dp"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_marginBottom="185dp"
+        android:text="ProjectName : SimpleCalc" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="319dp"
+        android:layout_height="66dp"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="-185dp"
+        android:text="Discription : Displays SimpleCalc using the two EditText and four buttons,it display the Operations on Addition,Substraction,Multiplication and Division" />
+
+</RelativeLayout>
